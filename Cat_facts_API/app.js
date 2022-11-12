@@ -16,17 +16,3 @@ button.addEventListener("click", () => {
     .catch();
   number++;
 });
-
-debugger;
-let a = 10;
-let b = 20;
-let c = a + b;
-
-function area(a, v) {
-  debugger;
-  let ans = a * v;
-  return ans;
-}
-console.log(c);
-let areaFn = area(10, 20);
-console.log(areaFn);
